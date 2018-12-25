@@ -1,36 +1,38 @@
+// Global styling for this template
 body,
 html {
   width: 100%;
   height: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 body {
   position: relative;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  font-family: "Roboto", sans-serif;
+  @include font;
   font-weight: 400;
+}
+
+body#index-body {
   background-color: #161616;
 }
 
-.nav-link {
-  color: #d1d1d1 !important;
-  text-decoration: none !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include font;
+  font-weight: 700;
 }
 
-.nav-link:active {
-  color: #ffffff !important;
-  text-decoration: none !important;
-}
-
-.nav-icon {
-  color: #ffffff !important;
+.index-text {
+  color: white;
 }
 
 a {
-  color: #ffffff !important;
+  color: white !important;
   text-decoration: underline !important;
   text-decoration-color: #395eb5 !important;
 }
@@ -38,22 +40,6 @@ a {
 a:hover {
   text-decoration: underline overline !important;
   text-decoration-color: #395eb5 !important;
-}
-
-h1,h2,h3,h4,h5,h6 {
-  color: #ffffff;
-  weight: 300 !important;
-}
-
-.line {
-  width: 180px;
-  height: 10px;
-  background: #395EB5;
-}
-
-.social {
-  font-weight: 500;
-  font-size: 11pt;
 }
 
 a.social-link {
@@ -74,7 +60,18 @@ a.social-link:hover {
   color: #9b9b9b;
 }
 
-.background {
+.line {
+  width: 180px;
+  height: 10px;
+  background: #395EB5;
+}
+
+.social {
+  font-weight: 700;
+  font-size: 11pt;
+}
+
+.particles-background {
   position: absolute;
   display: block;
   top: 0;
@@ -89,3 +86,19 @@ a.social-link:hover {
 ::selection {
   background: #395EB5;
   text-shadow: none; }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #13203d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #395eb5;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #294484;
+}

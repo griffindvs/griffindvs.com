@@ -1,12 +1,12 @@
 window.onload = function() {
   Particles.init({
-    selector: '.background'
+    selector: '.particles-background'
   });
 };
 
 $(document).ready(() => {
   var particles = Particles.init({
-    selector: '.background',
+    selector: '.particles-background',
     color: '#ffffff',
     connectParticles: true,
     maxParticles: 75,

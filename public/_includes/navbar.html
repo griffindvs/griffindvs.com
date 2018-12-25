@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><i class="fa fa-space-shuttle fa-lg nav-icon" aria-hidden="true"></i> Griffin Davis</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="https://gd2.co/portfolio">Work</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link {% if page.id == "/gd2co" %} active {% endif %}" href="/gd2co">gd2.co</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link {% if page.id == "/gd2app" %} active {% endif %}" href="/gd2app">gd2.app</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Projects
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="https://github.com/griffindvs/lasa2019">lasa2019.com</a>
+          <a class="dropdown-item" href="https://github.com/griffindvs/lasa2019.design">lasa2019.design</a>
+          <a class="dropdown-item" href="https://github.com/griffindvs/headway">headwaytutors.org</a>
+          <a class="dropdown-item" href="https://github.com/griffindvs/lasa-complexmath">C++ Complex Math Library</a>
+        </div>
+      </li>
+      <button class="btn btn-outline-primary my-2 my-sm-0" href="mailto:contact@griffindvs.com">Contact</button>
+    </ul>
+  </div>
+</nav>

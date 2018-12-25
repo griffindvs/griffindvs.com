@@ -1,0 +1,35 @@
+
+title: Griffin Davis
+email: griffin@lasa2019.com
+# description: >-
+#
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  archive:
+    output: true
+    permalink: /archive/:name
+
+sass:
+  sass_dir: _sass
+  style: compact
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+#  - Gemfile
+#  - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
