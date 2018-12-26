@@ -11,3 +11,29 @@
 .indexnav-icon {
   color: white !important;
 }
+
+a.main-nav {
+  color: white !important;
+}
+
+nav-icon {
+  color: white !important;
+}
+
+.dropdown-item {
+  color: black !important;
+}
+
+a.dropdown-item:active {
+  color: white !important;
+  background-color: $primary !important;
+}
+
+a.dropdown-item.active {
+  color: white !important;
+  background-color: $primary !important;
+}
+
+.nav-link.active {
+  color: #6390f9 !important;
+}

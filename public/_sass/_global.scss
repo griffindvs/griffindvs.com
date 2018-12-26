@@ -31,18 +31,36 @@ h6 {
   color: white;
 }
 
+section {
+  padding: 6rem;
+}
+
+.main-brand {
+  margin-left: 20px;
+}
+
 a {
+  color: $primary !important;
+}
+
+a.index-link {
   color: white !important;
   text-decoration: underline !important;
   text-decoration-color: #395eb5 !important;
 }
 
-a:hover {
+a.link-404 {
+  color: #395eb5 !important;
+  text-decoration: none !important;
+}
+
+a.index-link:hover {
   text-decoration: underline overline !important;
   text-decoration-color: #395eb5 !important;
 }
 
 a.social-link {
+  color: white !important;
   text-decoration: none !important;
 }
 
@@ -55,9 +73,14 @@ a.social-link:hover {
   text-decoration-color: #395eb5 !important;
 }
 
-.copy {
+.index-copy {
   font-size: 11pt;
   color: #9b9b9b;
+}
+
+.copy {
+  font-size: 11pt;
+  color: $gray-800;
 }
 
 .line {
