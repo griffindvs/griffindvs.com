@@ -129,3 +129,22 @@ a.social-link:hover {
 ::-webkit-scrollbar-thumb:hover {
   background: #294484;
 }
+
+.index-toggler {
+  color: white !important;
+  margin-top: 10px;
+}
+
+.indexnav-slash {
+  cursor: default;
+}
+
+.indexnav-slash {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .indexnav-slash {
+    display: block;
+  }
+}
