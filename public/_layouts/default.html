@@ -8,7 +8,9 @@
   {% if page.id == "/index" %} {% include indexnav.html %} {% endif %}
   {% if page.id != "/index" %} {% include navbar.html %} {% endif %}
 
-  {{ content }}
+  <div class="container my-5">
+    {{ content }}
+  </div>
 
   {% include footer.html %}
 
