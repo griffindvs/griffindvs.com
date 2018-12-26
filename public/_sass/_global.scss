@@ -104,11 +104,15 @@ a.social-link:hover {
 
 ::-moz-selection {
   background: #395EB5;
-  text-shadow: none; }
+  text-shadow: none;
+  color: white;
+}
 
 ::selection {
   background: #395EB5;
-  text-shadow: none; }
+  text-shadow: none;
+  color: white;
+}
 
 ::-webkit-scrollbar {
   width: 8px;
