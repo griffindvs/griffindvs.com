@@ -22,7 +22,7 @@ All pages, with the exception of `404.html`, run off of the `default.html` layou
    
 ## Creating a New Page
 1. Create a `.html` file in the `_pages` folder
-2. Use the following front matter so that Jekyll will use it in the build
+2. Use the following front matter so that Jekyll will include it in the build
     ```
     ---
     layout: default
