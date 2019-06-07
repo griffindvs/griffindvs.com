@@ -7,7 +7,7 @@ window.onload = function() {
 $(document).ready(() => {
   var particles = Particles.init({
     selector: '.particles-background',
-    color: '#ffffff',
+    color: '#282828',
     connectParticles: true,
     maxParticles: 75,
 
