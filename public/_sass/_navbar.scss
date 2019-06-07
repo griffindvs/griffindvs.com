@@ -1,11 +1,10 @@
 .indexnav {
   color: #d1d1d1 !important;
   text-decoration: none !important;
-}
-
-.indexnav:active {
-  color: white !important;
-  text-decoration: none !important;
+  &:active {
+    color: white !important;
+    text-decoration: none !important;
+  }
 }
 
 .indexnav-icon {
@@ -25,11 +24,6 @@ nav-icon {
 }
 
 a.dropdown-item:active {
-  color: white !important;
-  background-color: $primary !important;
-}
-
-a.dropdown-item.active {
   color: white !important;
   background-color: $primary !important;
 }
