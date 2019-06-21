@@ -1,0 +1,88 @@
+==================================================================
+https://keybase.io/gcd
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://griffindvs.com
+  * I am gcd (https://keybase.io/gcd) on keybase.
+  * I have a public key with fingerprint 3BDB 0D84 5240 6E9F B09F  054E 7668 C54F F0A2 1A74
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204fa6f073dcd63a0d875b08d3d0d2ecaecbbdf9d6bfe0d9fabab2f63ee357d0ba0a",
+      "fingerprint": "3bdb0d8452406e9fb09f054e7668c54ff0a21a74",
+      "host": "keybase.io",
+      "key_id": "7668c54ff0a21a74",
+      "kid": "01016fec0589a0338a776bc20ebf8413f4f290dfe57c396929032a341a9514c82f3f0a",
+      "uid": "a4047ae365ca99672328c618e5b05219",
+      "username": "gcd"
+    },
+    "merkle_root": {
+      "ctime": 1560185400,
+      "hash_meta": "f5b389d2f6cc8051bb21e4de1a1ce849567e68fc1deb7e625280c7233592681e",
+      "seqno": 5543604
+    },
+    "revoke": {
+      "sig_ids": [
+        "95ee75ed9540faa346709dec78ca921e946a02a77b69a6409fa6b57241a807c30f"
+      ]
+    },
+    "service": {
+      "hostname": "griffindvs.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1560185403,
+  "expire_in": 157680000,
+  "prev": "416a8052431cc71af5cc9a85a32fb6ecb7216dcd959810ce0064bdbcf482dc6d",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMP+AnicbZN7bBVFFMYv5VEoUghtAoItZhWEtLSzj5ndvTVplbeEYqqlItCb2Xm0
+y23vXvZuLxTSUgWVR7SS2CBgUqEJgmChFJTykmcLlKAICEEeiRKsUFGgUAggzm0k
+Jsa/dmfmnO985zdnDvfr7kvoFi0+MvXPdUO8bq0HI2W+mX8ty1ogWQ4tl/wLpCDr
++rASyiJeIGhTyS8BWQEax4gDXaWEIhUDaujQAgZVKaAKI5gRy6LcpMjiDFCTYwtb
+CkcqYyrUKbAwwFK6xO1QEXPDrh3yhKxqUUsIaVDRAGImt4DJAdSYjpBBoMY5wIqM
+dU0kFjuRWIYwZ+EIy7AdsScWgS57/xP/1DeQEWcEQMPEQFUNrOvIIgpgFjc0WeUa
+V0xAOYM6UU1kioWqYFWTsQlljRgKV3mX77IuOawBTcdMRZBg00S6oioGQbLBBAmo
+yGYsMMLcEC5lIrqIUKkiXSplbrCEBVzH8WJciWfHTmWIgGxADQDRG44UB0qZh0US
+h5ZqmFSQI8QAULYsRWYaZTKWCTM0EyKdIYMTmTJL/ClQMQARRlRoKsiQmbAQYXNC
+juSHUFMR0IQDl0WdIIsVj9hFglhE8s+QTMiYDhk1hQeORc9IByZlRDdEb6KmqSEM
+FMHLQiZGmrgZjCyoK4KNAQQtwKVZFbFibtQmXeKxK3raumtzcdU0GskgTqnwFHYd
+zyFOiTgr9rxwxB8j45WHY8FzmRX4RyZgiSQxIiIjytyI7YQEKRH5X2hqusTmhW2X
+BexYBNSRAUAMZVj0KiQ1GQmXYqxUmRBdxhwSYmIDYlXhFhKjqisyEoNsQtOQAWEA
+IE3MIuGaoVCC6L8UZSR84iKhKdiFsFfmMqni4IGZPXzdEny9esbF3o4voc+Apy9q
+3egBvvfv9h14CWU9PLZYLxyTXJW84tVjma90fHiuc3PPupTc1/a//dna8srTOxa2
+XW7Zd63kbPbF3zro2Pw3Pqq53m/tV+1pJxqiqzMW1Y64lA6ix24N+j3pburP1qZ6
+d9JLlfTqhA9KEje0RcOf8AuNp7TRSeMztvx4sc+QWc+tXB5aU6wMr84GO3M6Rt0f
+8+6NzhbX7b/4rT3bho48JKdeqgH69C1p43pNSIR7A6yx/OTk1F0tideu5zwfOlzt
+BjfYlc3FSaUjTicfn7Y7M+/hd0uTLgfMglXbf/GGbU37xh5+ufnJqTsPcxeaasPj
+lO39k3PrEqvGrR69c/OCvjkTpu+vqd/beWPUufYnqW0nW5oKD50oSElJij4oXRt8
+fIYua8r79dn8kWy9e3tPXn7HD9X11Bq0bLZnJxcs1Za07uqoK9xVu185uqJz2KmD
+x4P9X2ysv/D5rfaqGbW994Y/njdmdq9tU5aAvLm3X5i+6coflV/GNzXMSXpUHfde
+6+TKqgOPhsZf6dF4yPjpQfYX+r47+XuO7J4WGtaGe489/fq3vvSNU+H84Q92nt/6
+5o4pgxMnpryzPNMsjLu9/kR52sBQ5Uozt3uds3TV/ZqNFffkmefb730fdzYr86i3
+KOtM7zI7J7tgX1r3hWW3pjaNuzm7uXrUmoSEISF+tbaz4frLfH6BM4l+Gu+/MqUW
+LdnQPPGi/5mvB9/8G6o3ALk=
+=Fv/z
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gcd
+
+==================================================================
