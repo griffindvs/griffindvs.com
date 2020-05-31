@@ -123,11 +123,11 @@ a.social-link:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #395eb5;
+  background: #d6d6d6;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #294484;
+  background: #b0b0b0;
 }
 
 .index-toggler {
@@ -147,4 +147,18 @@ a.social-link:hover {
   .indexnav-slash {
     display: block;
   }
+}
+
+.blm-container {
+  padding: 2rem;
+}
+
+.blm {
+  color: #7f39b5 !important;
+}
+
+.line-blm {
+  width: 180px;
+  height: 10px;
+  background: #7f39b5;
 }
